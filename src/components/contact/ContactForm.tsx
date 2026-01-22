@@ -201,7 +201,7 @@ export default function ContactForm() {
                         Phone
                       </p>
                       <p className="text-lg leading-snug">
-                        +234 902 125 6904
+                        +234 912 568 9905
                       </p>
                       <p className="text-sm text-gray-400 mt-1">
                         Mon-Fri, 9am - 5pm WAT
@@ -252,7 +252,7 @@ export default function ContactForm() {
                 <div className="flex space-x-4">
                   <Link
                     className="w-10 h-10 rounded-full bg-white/10 hover:bg-primary flex items-center justify-center transition-all"
-                    href="https://www.linkedin.com/company/rexsearch?trk=blended-typeahead"
+                    href="https://www.linkedin.com/company/rexsearch/"
                   >
                     <span className="font-bold text-sm">Li</span>
                   </Link>

@@ -21,19 +21,19 @@ export default function Footer() {
             <div className="flex space-x-4">
               <Link
                 className="w-8 h-8 rounded bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors text-white"
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61586656664237&_rdc=1&_rdr#"
               >
                 <span className="material-icons-outlined text-sm">facebook</span>
               </Link>
               <Link
                 className="w-8 h-8 rounded bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors text-white"
-                href="#"
+                href="https://www.linkedin.com/company/rexsearch/"
               >
                 <span className="text-sm font-bold">in</span>
               </Link>
               <Link
                 className="w-8 h-8 rounded bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors text-white"
-                href="#"
+                href="mailto:info@rexexecutivesearch.com"
               >
                 <span className="material-icons-outlined text-sm">
                   alternate_email
@@ -88,22 +88,22 @@ export default function Footer() {
                   location_on
                 </span>
                 <span>
-                  15 Victoria Island Blvd,
+                  14, Abayomi Street,
                   <br />
-                  Lagos, Nigeria
+                 Akoka, Lagos, Nigeria
                 </span>
               </li>
               <li className="flex items-center">
                 <span className="material-icons-outlined text-primary mr-3 text-lg">
                   phone
                 </span>
-                <span>+234 800 123 4567</span>
+                <span>+234 912 568 9905</span>
               </li>
               <li className="flex items-center">
                 <span className="material-icons-outlined text-primary mr-3 text-lg">
                   email
                 </span>
-                <span>hello@rexsearch.com</span>
+                <span>info@rexexecutivesearch.com</span>
               </li>
             </ul>
           </div>
@@ -129,7 +129,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-800 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
-          <p>© 2024 Rex Executive Search. All rights reserved.</p>
+          <p>© 2026 Rex Executive Search. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link className="hover:text-white transition-colors" href="#">
               Privacy Policy

@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     description: "Your specialist growth and productivity partner in the FMCG sector.",
     images: [
       {
-        url: "/logo.png", // We need to ensure this image exists or is handled
+        url: "/logo.png",
         width: 1200,
         height: 630,
         alt: "Rex Executive Search",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     images: ["/logo.png"],
   },
   icons: {
-    icon: "/logo.ico",
+    icon: "/logo.png",
   },
 };
 

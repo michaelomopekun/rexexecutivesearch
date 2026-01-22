@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Montserrat, Open_Sans } from "next/font/google";
 import "./globals.css";
 import Preloader from "@/components/Common/Preloader";
+import { Analytics } from "@vercel/analytics/next"
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -73,6 +74,7 @@ export default function RootLayout({
       >
         <Preloader />
         {children}
+        <Analytics />
       </body>
     </html>
   );

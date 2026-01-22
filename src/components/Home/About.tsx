@@ -73,7 +73,7 @@ export default function About() {
                  <Image
                     alt="Team collaborating"
                     className="rounded-xl shadow-2xl object-cover"
-                    src="/fmcg distribution.png"
+                    src="/fmcg.png"
                     fill
                  />
             </div>

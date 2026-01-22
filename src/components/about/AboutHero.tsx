@@ -23,8 +23,8 @@ export default function AboutHero() {
             </span>
           </div>
           <h1 className="text-5xl md:text-7xl font-display font-extrabold text-white leading-tight mb-6">
-            Building Legacies <br />
-            <span className="text-primary">Since 2005</span>
+            Trusted <br />
+            <span className="text-primary">FMCG Recruitment</span> Partners
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 mb-10 leading-relaxed max-w-2xl font-light">
             Connecting exceptional talent with forward-thinking FMCG organizations

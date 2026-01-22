@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SocialIcons from "../Home/social_icons";
 
 export default function ContactForm() {
   return (
@@ -220,7 +221,7 @@ export default function ContactForm() {
                       </p>
                       <a
                         className="text-lg leading-snug hover:text-primary transition-colors break-all"
-                        href="mailto:info@rexexecutivesearch.com"
+                        href="mailto:info@rexexecutivesearch.com" target="_blank" rel="noopener noreferrer"
                       >
                         info@rexexecutivesearch.com
                       </a>
@@ -249,26 +250,7 @@ export default function ContactForm() {
                 <p className="text-gray-400 mb-4 text-sm">
                   Follow our social channels
                 </p>
-                <div className="flex space-x-4">
-                  <Link
-                    className="w-10 h-10 rounded-full bg-white/10 hover:bg-primary flex items-center justify-center transition-all"
-                    href="https://www.linkedin.com/company/rexsearch/"
-                  >
-                    <span className="font-bold text-sm">Li</span>
-                  </Link>
-                  <Link
-                    className="w-10 h-10 rounded-full bg-white/10 hover:bg-primary flex items-center justify-center transition-all"
-                    href="#"
-                  >
-                    <span className="font-bold text-sm">X</span>
-                  </Link>
-                  <Link
-                    className="w-10 h-10 rounded-full bg-white/10 hover:bg-primary flex items-center justify-center transition-all"
-                    href="#"
-                  >
-                    <span className="font-bold text-sm">Ig</span>
-                  </Link>
-                </div>
+                <SocialIcons />
               </div>
             </div>
           </div>

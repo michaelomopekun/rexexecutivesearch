@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SocialIcons from "./social_icons";
 
 export default function Footer() {
   return (
@@ -18,28 +19,7 @@ export default function Footer() {
               Specialist recruitment agency focused on delivering high-impact
               leadership to the FMCG sector across Africa.
             </p>
-            <div className="flex space-x-4">
-              <Link
-                className="w-8 h-8 rounded bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors text-white"
-                href="https://www.facebook.com/profile.php?id=61586656664237&_rdc=1&_rdr#"
-              >
-                <span className="material-icons-outlined text-sm">facebook</span>
-              </Link>
-              <Link
-                className="w-8 h-8 rounded bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors text-white"
-                href="https://www.linkedin.com/company/rexsearch/"
-              >
-                <span className="text-sm font-bold">in</span>
-              </Link>
-              <Link
-                className="w-8 h-8 rounded bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors text-white"
-                href="mailto:info@rexexecutivesearch.com"
-              >
-                <span className="material-icons-outlined text-sm">
-                  alternate_email
-                </span>
-              </Link>
-            </div>
+            <SocialIcons />
           </div>
           <div>
             <h4 className="text-white font-bold mb-6">Quick Links</h4>

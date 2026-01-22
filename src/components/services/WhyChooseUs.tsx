@@ -80,7 +80,7 @@ export default function WhyChooseUs() {
                <Image
                 alt="Executive handshake"
                 className="rounded-xl shadow-2xl object-cover border border-white/20"
-                src="/default-image.svg"
+                src="/why_us.jpg"
                 fill
               />
             </div>

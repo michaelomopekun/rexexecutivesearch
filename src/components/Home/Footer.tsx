@@ -52,7 +52,7 @@ export default function Footer() {
               <li>
                 <Link
                   className="hover:text-primary transition-colors"
-                  href="#about"
+                  href="/about"
                 >
                   About Us
                 </Link>
@@ -60,7 +60,7 @@ export default function Footer() {
               <li>
                 <Link
                   className="hover:text-primary transition-colors"
-                  href="#sectors"
+                  href="/sectors"
                 >
                   Sectors
                 </Link>
@@ -68,16 +68,16 @@ export default function Footer() {
               <li>
                 <Link
                   className="hover:text-primary transition-colors"
-                  href="#services"
+                  href="/services"
                 >
                   Services
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link className="hover:text-primary transition-colors" href="#">
                   Job Board
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div>

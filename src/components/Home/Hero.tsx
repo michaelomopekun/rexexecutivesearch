@@ -3,7 +3,8 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <header className="relative overflow-hidden">
+
+    <header className="relative overflow-hidden bg-black">
       <div className="absolute inset-0 z-0">
         <Image
           alt="Modern corporate meeting discussing strategy"
@@ -34,7 +35,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               className="inline-flex justify-center items-center px-8 py-4 border border-transparent text-base font-bold rounded-DEFAULT text-white bg-primary hover:bg-primary-dark transition-all shadow-lg hover:shadow-red-500/40"
-              href="#contact"
+              href="/contact"
             >
               Find Talent
               <span className="material-icons-outlined ml-2">
@@ -43,7 +44,7 @@ export default function Hero() {
             </Link>
             <Link
               className="inline-flex justify-center items-center px-8 py-4 border-2 border-white/30 hover:border-white text-base font-bold rounded-DEFAULT text-white hover:bg-white/10 transition-all backdrop-blur-sm"
-              href="#sectors"
+              href="/sectors"
             >
               Explore Sectors
             </Link>
@@ -51,9 +52,10 @@ export default function Hero() {
         </div>
       </div>
       <div
-        className="absolute bottom-0 right-0 w-1/3 h-24 bg-background-light dark:bg-background-dark hidden lg:block"
+        className="absolute bottom-0 right-0 w-1/3 h-24 bg-background-light dark:bg-background-dark hidden lg:block bg-pill-grid"
         style={{ clipPath: "polygon(20% 0, 100% 0, 100% 100%, 0% 100%)" }}
       ></div>
     </header>
+
   );
 }

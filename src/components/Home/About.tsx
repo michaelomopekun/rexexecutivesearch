@@ -28,14 +28,12 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-3xl md:text-5xl font-display font-bold mb-6">
-              Building Legacies <br />
-              Since 2005.
+              Trusted FMCG  <br />
+              Recruitment Partners
             </h2>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
               At Rex Executive Search, we believe that people are the cornerstone
-              of any successful FMCG enterprise. For nearly two decades, we have
-              been the silent partner behind the success stories of major brands
-              across Africa.
+              of any successful FMCG enterprise.
             </p>
             <p className="text-gray-300 text-lg leading-relaxed mb-8">
               Our mission is simple yet ambitious: to be the most trusted
@@ -45,7 +43,7 @@ export default function About() {
             <div className="flex flex-col sm:flex-row gap-8 mt-8 border-t border-white/20 pt-8">
               <div>
                 <span className="block text-4xl font-extrabold text-primary">
-                  18+
+                  ?+
                 </span>
                 <span className="text-sm text-gray-400 uppercase tracking-wider">
                   Years Experience
@@ -53,7 +51,7 @@ export default function About() {
               </div>
               <div>
                 <span className="block text-4xl font-extrabold text-primary">
-                  500+
+                  ?+
                 </span>
                 <span className="text-sm text-gray-400 uppercase tracking-wider">
                   Placements
@@ -61,7 +59,7 @@ export default function About() {
               </div>
               <div>
                 <span className="block text-4xl font-extrabold text-primary">
-                  98%
+                  ?%
                 </span>
                 <span className="text-sm text-gray-400 uppercase tracking-wider">
                   Retention Rate
@@ -75,7 +73,7 @@ export default function About() {
                  <Image
                     alt="Team collaborating"
                     className="rounded-xl shadow-2xl object-cover"
-                    src="/default-image.svg"
+                    src="/fmcg distribution.png"
                     fill
                  />
             </div>

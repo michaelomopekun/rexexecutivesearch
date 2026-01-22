@@ -7,19 +7,19 @@ export default function Clients() {
         </p>
         <div className="flex flex-wrap justify-center items-center gap-12 md:gap-20 grayscale opacity-60">
           <div className="h-10 text-gray-500 dark:text-gray-400 font-display font-bold text-2xl flex items-center">
-            NESTLE
+            ?
           </div>
           <div className="h-10 text-gray-500 dark:text-gray-400 font-display font-bold text-2xl flex items-center">
-            UNILEVER
+            ?
           </div>
           <div className="h-10 text-gray-500 dark:text-gray-400 font-display font-bold text-2xl flex items-center">
-            DIAGEO
+            ?
           </div>
           <div className="h-10 text-gray-500 dark:text-gray-400 font-display font-bold text-2xl flex items-center">
-            COCA-COLA
+            ?
           </div>
           <div className="h-10 text-gray-500 dark:text-gray-400 font-display font-bold text-2xl flex items-center">
-            P&G
+            ?
           </div>
         </div>
       </div>

@@ -11,7 +11,7 @@ export default function Navbar() {
       <div className="pointer-events-auto max-w-7xl mx-auto bg-accent-blue/35 dark:bg-gray-900/80 backdrop-blur-xl border border-white/20 rounded-2xl shadow-2xl px-4 sm:px-6 lg:px-8 transition-all duration-300">
         <div className="flex justify-between h-20 items-center">
           <div className="flex-shrink-0 flex items-center">
-            <Link className="flex flex-col" href="#">
+            <Link className="flex flex-col" href="/">
               <span className="text-3xl font-display font-extrabold text-primary tracking-tighter leading-none">
                 REX
               </span>
@@ -90,14 +90,14 @@ export default function Navbar() {
             </Link>
             <Link
               className="text-gray-200 hover:text-white font-medium text-sm transition-colors"
-              href="/#about"
+              href="/about"
               onClick={() => setMobileMenuOpen(false)}
             >
               About Us
             </Link>
             <Link
               className="bg-primary hover:bg-primary-dark text-white px-5 py-2.5 rounded-DEFAULT font-semibold transition-colors shadow-lg shadow-red-500/30 text-center"
-              href="/#contact"
+              href="/contact"
               onClick={() => setMobileMenuOpen(false)}
             >
               Contact Us

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat, Open_Sans } from "next/font/google";
 import "./globals.css";
+import Preloader from "@/components/Common/Preloader";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body
         className={`${montserrat.variable} ${openSans.variable} antialiased transition-colors duration-300 font-body`}
       >
+        <Preloader />
         {children}
       </body>
     </html>

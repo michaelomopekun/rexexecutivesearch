@@ -43,7 +43,7 @@ export default function Sectors() {
                <Image
                 alt="Food & Drinks"
                 className="object-cover"
-                src="/default-image.svg"
+                src="/food_and_beverage_production.jpg"
                 fill
               />
             </div>
@@ -67,7 +67,7 @@ export default function Sectors() {
                <Image
                 alt="Consumer Goods"
                 className="object-cover"
-                src="/default-image.svg"
+                src="/non_food_product.jpg"
                 fill
               />
             </div>
@@ -91,7 +91,7 @@ export default function Sectors() {
                <Image
                 alt="Retail"
                 className="object-cover"
-                src="/default-image.svg"
+                src="/Retail-inventory-management.jpg"
                 fill
               />
             </div>

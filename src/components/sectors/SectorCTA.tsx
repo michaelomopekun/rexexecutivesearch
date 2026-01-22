@@ -22,7 +22,7 @@ export default function SectorCTA() {
         </p>
         <Link
           className="inline-flex items-center px-10 py-4 bg-primary text-white text-lg font-bold rounded-lg hover:bg-white hover:text-primary transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1"
-          href="/#contact"
+          href="/contact"
         >
           Get in Touch
           <span className="material-icons-outlined ml-2">arrow_forward</span>

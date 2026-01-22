@@ -18,7 +18,7 @@ export default function Services() {
           </div>
           <Link
             className="hidden md:flex items-center text-primary font-semibold hover:text-primary-dark transition-colors"
-            href="#contact"
+            href="/services"
           >
             View all services{" "}
             <span className="material-icons-outlined ml-1">arrow_forward</span>
@@ -74,7 +74,7 @@ export default function Services() {
         <div className="mt-8 md:hidden text-center">
           <Link
             className="flex items-center justify-center text-primary font-semibold hover:text-primary-dark transition-colors"
-            href="#contact"
+            href="/contact"
           >
             View all services{" "}
             <span className="material-icons-outlined ml-1">arrow_forward</span>

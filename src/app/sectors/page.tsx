@@ -20,7 +20,7 @@ export default function SectorsPage() {
           "Quality Control Lead",
           "Logistics Coordinator"
         ]}
-        imageSrc="https://lh3.googleusercontent.com/aida-public/AB6AXuAysp3QL-gA1zKR5VFSJuHlNeTR-CfjHJMbE5zDeAd-i-DA4eFiDG_QVMY1bnuUgiNZCbyve1TLpA1FLXx06vKl4HzhenvFA9cVFH04TY4luhMKpiZEH-8zGEcVt9gZQLP6F9kOT3h6oETxDbWYSYR65cKUvieyDKuo22CPzF6gchR5ukIX-FmGPw_rl_OK-S0UUFHwuLP7YgYGkefeTXF7mrxTbsnu7DVi1HxO1RNzOy36fpd3v1fM__1n1rUa6J7fAvWv9zQKPTs"
+        imageSrc="/Agro-Allied.jpg"        
         imageAlt="Agro-Allied Industry"
         isReversed={false}
         bgClass="bg-pill-grid"
@@ -36,7 +36,7 @@ export default function SectorsPage() {
           "Production Manager",
           "Head of Quality Assurance"
         ]}
-        imageSrc="https://lh3.googleusercontent.com/aida-public/AB6AXuDcEHds0qQMaO7lQu0j56Lz5peFfl5ptWrnjrz6BP4Af0T-ubDWR5W_01fEiEFHhfWR1nj7GJzhOHo4BW9bZbMQR6uu1O4L-8YrGXHWuem-xB3XhBeEgqYRUigOQLbd6M9-u4zaxy1GOwS2t2IY3m3sbHP_oNy6SpvcNWnWZ3c3zpmcXakxBOZtS6Mt8vjSLvRjlAngQwrfxXd42P2LMS2NLlhT8JfEvhFjy4ZVVd6o5IENYy7H7Cs9ViRZqC4QrcNbv-54xDVRXbE"
+        imageSrc="/food_and_beverage_production.jpg"
         imageAlt="Food & Drinks Production"
         isReversed={true}
         bgColorClass="bg-surface-light"
@@ -52,7 +52,7 @@ export default function SectorsPage() {
           "Packaging Engineer",
           "Trade Marketing Manager"
         ]}
-        imageSrc="https://lh3.googleusercontent.com/aida-public/AB6AXuDaAAF-bt27xuY6nzmoz11T6aqa0Fn0fQ4CMtkAWQBNK-tG06HPvxmSbwcYhlTq8zcNDA-fR3ZomQEMqrBu3vegC0WbBbGgJHMQI20b_qgEcv4r-1sG1dXoL1dZUpRF8UbneiC2bpBs5kRDm2J725xdY6DuDjjvFmyAM7qGv7Z0OtXDQh0qxCRFMONA2cgvsuZ-oFQBiJbhsWeR1N5ieoEZxPhwUtsx9yJqZwuafueeKd3GO0cVawbkiNqnhUOR2zyDd1KZBFjGKko"
+        imageSrc="/non_food_product.jpg"
         imageAlt="Consumer Goods"
         isReversed={false}
         bgClass="bg-pill-grid"
@@ -68,7 +68,7 @@ export default function SectorsPage() {
           "Visual Merchandising Lead",
           "Store Manager"
         ]}
-        imageSrc="https://lh3.googleusercontent.com/aida-public/AB6AXuCx89WsKniRPf961OeO3bNkApVHR5DX-ogFVux4JpkNBS-CJ5SIpWoI9zqytWfe0WXbu5n5kZiMuYrjMxCgG_l7i0IRTDDEGkMNW3EsYs2TGbIA_Brh9oHRVgV3ejtx-1chcIZe03cm3UAfhVz1HO7hi2DW5D7AOjLwt3oOf5d8FFomkrVx8PujWE65v0uRk8_qmtGrEkNIahYk68ftDrIF9bBw-Gid-bMA-cFNSVhiQJPI3FnhzTVk4ViRyehVwXmBqp5qUGdOCR8"
+        imageSrc="/Retail-inventory-management.jpg"
         imageAlt="Retail Operations"
         isReversed={true}
         bgColorClass="bg-surface-light"

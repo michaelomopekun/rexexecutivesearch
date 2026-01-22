@@ -8,7 +8,7 @@ export default function SectorHero() {
         <Image
           alt="Boardroom executive meeting"
           className="w-full h-full object-cover"
-          src="/default-image.svg"
+          src="/thoughtful-african-american-woman-shopping-grocery-store.jpg"
           fill
           priority
         />
@@ -35,7 +35,7 @@ export default function SectorHero() {
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               className="inline-flex justify-center items-center px-8 py-4 border border-transparent text-base font-bold rounded-DEFAULT text-white bg-primary hover:bg-primary-dark transition-all shadow-lg hover:shadow-red-500/40"
-              href="#contact"
+              href="/contact"
             >
               Start Your Search
               <span className="material-icons-outlined ml-2">arrow_forward</span>

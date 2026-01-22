@@ -220,9 +220,9 @@ export default function ContactForm() {
                       </p>
                       <a
                         className="text-lg leading-snug hover:text-primary transition-colors break-all"
-                        href="mailto:a.olayinka@rexexecutivesearch.com"
+                        href="mailto:info@rexexecutivesearch.com"
                       >
-                        a.olayinka@rexexecutivesearch.com
+                        info@rexexecutivesearch.com
                       </a>
                     </div>
                   </div>
@@ -240,7 +240,7 @@ export default function ContactForm() {
                       <p className="text-sm text-gray-400 font-semibold uppercase tracking-wider mb-1">
                         WhatsApp
                       </p>
-                      <p className="text-lg leading-snug">+234 902 125 6904</p>
+                      <p className="text-lg leading-snug">+234 912 568 9905</p>
                     </div>
                   </div>
                 </div>
@@ -252,7 +252,7 @@ export default function ContactForm() {
                 <div className="flex space-x-4">
                   <Link
                     className="w-10 h-10 rounded-full bg-white/10 hover:bg-primary flex items-center justify-center transition-all"
-                    href="#"
+                    href="https://www.linkedin.com/company/rexsearch?trk=blended-typeahead"
                   >
                     <span className="font-bold text-sm">Li</span>
                   </Link>

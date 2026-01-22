@@ -23,7 +23,7 @@ export default function AboutCTA() {
         <div className="flex flex-col sm:flex-row justify-center gap-6">
           <Link
             className="inline-flex justify-center items-center px-8 py-4 border border-transparent text-base font-bold rounded-full text-white bg-primary hover:bg-primary-dark transition-all shadow-lg hover:shadow-red-500/40 transform hover:-translate-y-1"
-            href="#contact"
+            href="/contact"
           >
             I am a Client
             <span className="material-icons-outlined ml-2">
@@ -32,7 +32,7 @@ export default function AboutCTA() {
           </Link>
           <Link
             className="inline-flex justify-center items-center px-8 py-4 border-2 border-white/30 hover:border-white text-base font-bold rounded-full text-white hover:bg-white/10 transition-all backdrop-blur-sm transform hover:-translate-y-1"
-            href="#contact"
+            href="/contact"
           >
             I am a Candidate
             <span className="material-icons-outlined ml-2">person</span>

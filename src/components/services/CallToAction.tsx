@@ -15,16 +15,16 @@ export default function CallToAction() {
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <Link
             className="inline-flex justify-center items-center px-10 py-5 border border-transparent text-lg font-bold rounded-DEFAULT text-white bg-primary hover:bg-primary-dark transition-all shadow-xl hover:shadow-red-500/40 transform hover:-translate-y-1"
-            href="#contact"
+            href="/contact"
           >
             Consult with our Experts
           </Link>
-          <Link
+          {/* <Link
             className="inline-flex justify-center items-center px-10 py-5 border-2 border-gray-200 dark:border-gray-700 text-lg font-bold rounded-DEFAULT text-gray-700 dark:text-white hover:border-primary hover:text-primary transition-all bg-white/50 dark:bg-transparent backdrop-blur-sm"
             href="#"
           >
             Download Brochure
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>

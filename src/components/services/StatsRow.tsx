@@ -6,7 +6,7 @@ export default function StatsRow() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center divide-x divide-white/10">
           <div className="p-4">
             <div className="text-4xl lg:text-5xl font-extrabold text-white mb-2 font-display">
-              6<span className="text-primary text-3xl">wks</span>
+              ?<span className="text-primary text-3xl">wks</span>
             </div>
             <p className="text-gray-300 text-sm uppercase tracking-wider font-medium">
               Avg. Time to Shortlist
@@ -14,7 +14,7 @@ export default function StatsRow() {
           </div>
           <div className="p-4">
             <div className="text-4xl lg:text-5xl font-extrabold text-white mb-2 font-display">
-              96<span className="text-primary text-3xl">%</span>
+              ?<span className="text-primary text-3xl">%</span>
             </div>
             <p className="text-gray-300 text-sm uppercase tracking-wider font-medium">
               Fill Rate for Retained Search
@@ -22,7 +22,7 @@ export default function StatsRow() {
           </div>
           <div className="p-4">
             <div className="text-4xl lg:text-5xl font-extrabold text-white mb-2 font-display">
-              98<span className="text-primary text-3xl">%</span>
+              ?<span className="text-primary text-3xl">%</span>
             </div>
             <p className="text-gray-300 text-sm uppercase tracking-wider font-medium">
               Retention After 2 Years
@@ -30,7 +30,7 @@ export default function StatsRow() {
           </div>
           <div className="p-4">
             <div className="text-4xl lg:text-5xl font-extrabold text-white mb-2 font-display">
-              150<span className="text-primary text-3xl">+</span>
+              ?<span className="text-primary text-3xl">+</span>
             </div>
             <p className="text-gray-300 text-sm uppercase tracking-wider font-medium">
               C-Suite Placements

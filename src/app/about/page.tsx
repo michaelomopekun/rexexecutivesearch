@@ -16,7 +16,7 @@ export default function AboutPage() {
       <Story />
       <MissionVision />
       <CoreValues />
-      <Timeline />
+      {/* <Timeline /> */}
       <Team />
       <AboutCTA />
       <Footer />

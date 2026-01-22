@@ -33,7 +33,7 @@ export default function Team() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                 <div className="text-white">
-                  <span className="block font-bold">Oluwaseun Adebayo</span>
+                  <span className="block font-bold">Amosu Olayinka Festus</span>
                   <span className="text-xs uppercase tracking-wider text-primary">
                     Connect on LinkedIn
                   </span>
@@ -41,19 +41,19 @@ export default function Team() {
               </div>
             </div>
             <h3 className="text-xl font-bold text-gray-900 dark:text-white">
-              Oluwaseun Adebayo
+              Amosu Olayinka Festus
             </h3>
             <p className="text-primary font-medium text-sm mb-3">
               Founder & CEO
             </p>
             <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-              With over 20 years in HR consulting, Oluwaseun steers the
+              With over ? years in HR consulting, Olayinka steers the
               strategic vision of Rex.
             </p>
           </div>
 
           {/* Member 2: Ops */}
-          <div className="group">
+          {/* <div className="group">
             <div className="relative overflow-hidden rounded-xl mb-6 h-80 bg-gray-200 shadow-md">
               <Image
                 alt="Director"
@@ -85,10 +85,10 @@ export default function Team() {
               Chioma ensures operational excellence and oversees our rigorous
               vetting processes.
             </p>
-          </div>
+          </div> */}
 
           {/* Member 3: Talent */}
-          <div className="group">
+          {/* <div className="group">
             <div className="relative overflow-hidden rounded-xl mb-6 h-80 bg-gray-200 shadow-md">
               <Image
                 alt="Head of Talent"
@@ -120,10 +120,10 @@ export default function Team() {
               David leads our market intelligence unit, identifying trends
               before they emerge.
             </p>
-          </div>
+          </div> */}
 
           {/* Member 4: Regional */}
-          <div className="group">
+          {/* <div className="group">
             <div className="relative overflow-hidden rounded-xl mb-6 h-80 bg-gray-200 shadow-md">
               <Image
                 alt="Regional Manager"
@@ -155,7 +155,7 @@ export default function Team() {
               Sarah manages key client relationships across Ghana and Ivory
               Coast.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

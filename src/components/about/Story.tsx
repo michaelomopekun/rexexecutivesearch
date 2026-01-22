@@ -17,11 +17,10 @@ export default function Story() {
             </h2>
             <div className="space-y-6 text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
               <p>
-                Established in 2005, Rex Executive Search began with a singular
-                vision: to address the critical leadership gap in Africa's
-                burgeoning Fast-Moving Consumer Goods sector. What started as a
-                boutique agency in Lagos has grown into a pan-African
-                powerhouse.
+                Rex Executive Search began with a singular vision: to address the
+                critical leadership gap in Africa's burgeoning Fast-Moving
+                Consumer Goods sector. What started as a boutique agency has grown
+                into a pan-African powerhouse.
               </p>
               <p>
                 We don't just fill vacancies; we understand the pulse of the
@@ -29,12 +28,12 @@ export default function Story() {
                 behaviors, our expertise allows us to identify leaders who don't
                 just fit the role but shape the future of the organization.
               </p>
-              <p>
+              {/* <p>
                 Over the last two decades, we have partnered with multinational
                 giants and indigenous conglomerates alike, building a reputation
                 for discretion, precision, and an unwavering commitment to
                 quality.
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="relative">
@@ -43,13 +42,13 @@ export default function Story() {
               <Image
                 alt="Rex Executive Search Team"
                 className="rounded-xl shadow-2xl object-cover"
-                src="/default-image.svg"
+                src="/fmcg_industry.jpg"
                 fill
               />
             </div>
             <div className="absolute bottom-8 left-8 z-20 bg-white/95 dark:bg-gray-800/95 p-6 rounded-lg shadow-lg max-w-xs backdrop-blur-sm border-l-4 border-primary">
               <p className="font-display font-bold text-primary text-4xl mb-1">
-                19+
+                ?+
               </p>
               <p className="text-sm text-gray-600 dark:text-gray-400 font-medium uppercase tracking-wide">
                 Years of dedicated service to the industry

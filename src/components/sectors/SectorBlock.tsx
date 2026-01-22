@@ -46,7 +46,7 @@ export default function SectorBlock({
               <Image
                  alt={imageAlt}
                  className="object-cover transition-transform duration-700 group-hover:scale-105"
-                 src="/default-image.svg"
+                 src={imageSrc}
                  fill
                />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-60"></div>

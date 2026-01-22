@@ -4,6 +4,13 @@ import SectorPageHeader from "@/components/sectors/SectorPageHeader";
 import SectorBlock from "@/components/sectors/SectorBlock";
 import SectorCTA from "@/components/sectors/SectorCTA";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Our Sectors",
+  description: "Explore our expertise in Agro-Allied, Food & Drinks, Non-Food Consumer Goods, and Retail Operations recruitment.",
+};
+
 export default function SectorsPage() {
   return (
     <main className="min-h-screen flex flex-col">

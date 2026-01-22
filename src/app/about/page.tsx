@@ -8,6 +8,13 @@ import Timeline from "@/components/about/Timeline";
 import Team from "@/components/about/Team";
 import AboutCTA from "@/components/about/AboutCTA";
 
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Us",
+  description: "Learn about Rex Executive Search, our mission, vision, and the team driving success in FMCG recruitment.",
+};
+
 export default function AboutPage() {
   return (
     <main className="min-h-screen">

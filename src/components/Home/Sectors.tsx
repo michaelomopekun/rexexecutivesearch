@@ -21,6 +21,7 @@ export default function Sectors() {
                 className="object-cover"
                 src="/Agro-Allied.jpg"
                 fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
               />
             </div>
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
@@ -45,6 +46,7 @@ export default function Sectors() {
                 className="object-cover"
                 src="/food_and_beverage_production.jpg"
                 fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
               />
             </div>
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
@@ -69,6 +71,7 @@ export default function Sectors() {
                 className="object-cover"
                 src="/non_food_product.jpg"
                 fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
               />
             </div>
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
@@ -93,6 +96,7 @@ export default function Sectors() {
                 className="object-cover"
                 src="/Retail-inventory-management.jpg"
                 fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
               />
             </div>
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>

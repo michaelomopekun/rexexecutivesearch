@@ -19,7 +19,7 @@ export default function Sectors() {
                <Image
                 alt="Agro-Allied"
                 className="object-cover"
-                src="/default-image.svg"
+                src="/Agro-Allied.jpg"
                 fill
               />
             </div>

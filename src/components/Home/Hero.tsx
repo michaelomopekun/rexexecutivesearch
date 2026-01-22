@@ -8,7 +8,7 @@ export default function Hero() {
         <Image
           alt="Modern corporate meeting discussing strategy"
           className="w-full h-full object-cover"
-          src="/default-image.svg"
+          src="/thoughtful-african-american-woman-shopping-grocery-store.jpg"
           fill
           priority
         />

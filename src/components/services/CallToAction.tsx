@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function CallToAction() {
   return (
-    <section className="py-24 bg-white dark:bg-background-dark bg-pill-pattern relative">
-      <div className="absolute inset-0 bg-white/90 dark:bg-background-dark/95 z-0"></div>
+    <section className="py-24 bg-white dark:bg-background-dark relative bg-pill-grid">
+      <div className="absolute inset-0 bg-white/90 dark:bg-background-dark/95 z-0 bg-pill-grid"></div>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <h2 className="text-3xl md:text-5xl font-display font-bold text-gray-900 dark:text-white mb-6">
           Ready to Find Your Next Leader?

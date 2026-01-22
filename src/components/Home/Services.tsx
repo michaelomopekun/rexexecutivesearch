@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Services() {
   return (
     <section
-      className="py-24 bg-background-light dark:bg-surface-dark border-y border-gray-200 dark:border-gray-700"
+      className="py-24 bg-background-light dark:bg-surface-dark border-y border-gray-200 dark:border-gray-700 bg-pill-grid"
       id="services"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

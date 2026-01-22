@@ -1,7 +1,7 @@
 export default function Methodology() {
   return (
-    <section className="py-24 bg-white dark:bg-background-dark bg-pill-pattern relative">
-      <div className="absolute inset-0 bg-white/90 dark:bg-background-dark/95 z-0"></div>
+    <section className="py-24 bg-white dark:bg-background-dark bg-pill-pattern relative bg-pill-grid">
+      <div className="absolute inset-0 bg-white/90 dark:bg-background-dark/95 z-0 bg-pill-grid"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
           <span className="text-primary font-bold tracking-wider uppercase text-sm">

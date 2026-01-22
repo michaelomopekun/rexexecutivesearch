@@ -1,6 +1,6 @@
 export default function Clients() {
   return (
-    <section className="py-16 bg-white dark:bg-black border-b border-gray-100 dark:border-gray-800">
+    <section className="py-16 bg-white dark:bg-black border-b border-gray-100 dark:border-gray-800 bg-pill-grid">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <p className="text-sm font-semibold text-gray-400 uppercase tracking-widest mb-10">
           Trusted by Industry Leaders

@@ -91,6 +91,7 @@ export default function ContactForm() {
                       name="email"
                       placeholder="john@company.com"
                       type="email"
+                      required
                     />
                   </div>
                   <div>
@@ -106,6 +107,7 @@ export default function ContactForm() {
                       name="phone"
                       placeholder="+234 ..."
                       type="tel"
+                      required
                     />
                   </div>
                 </div>
@@ -122,6 +124,7 @@ export default function ContactForm() {
                       id="inquiry"
                       name="inquiry"
                       defaultValue=""
+                      required
                     >
                       <option disabled value="">
                         Select an option
@@ -151,6 +154,7 @@ export default function ContactForm() {
                     name="message"
                     placeholder="How can we help you?"
                     rows={4}
+                    required
                   ></textarea>
                 </div>
                 <div className="pt-4">

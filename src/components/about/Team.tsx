@@ -23,11 +23,11 @@ export default function Team() {
               <Image
                 alt="CEO"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                src="/default-image.svg"
+                src="/RES_CEO_PP.jpeg"
                 fill
                 style={{
                   objectPosition: "50% 20%",
-                  filter: "grayscale(100%) contrast(1.2)",
+                  // filter: "grayscale(100%) contrast(1.2)",
                   opacity: 0.9,
                 }}
               />

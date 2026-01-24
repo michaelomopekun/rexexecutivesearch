@@ -156,7 +156,7 @@ export default function ContactForm() {
                 <div className="pt-4">
                   <button
                     className="w-full md:w-auto px-8 py-4 bg-primary hover:bg-primary-dark text-white font-bold rounded-lg shadow-lg shadow-primary/30 transition-all transform hover:-translate-y-0.5 active:translate-y-0 flex items-center justify-center"
-                    type="submit"
+                    type="button"
                   >
                     Send Message
                     <span className="material-symbols-outlined ml-2 text-sm">

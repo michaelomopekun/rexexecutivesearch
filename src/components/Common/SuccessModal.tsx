@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 
 interface SuccessModalProps {
   isOpen: boolean;
@@ -18,10 +19,17 @@ export default function SuccessModal({
   buttonText = "Back to Home",
   buttonHref = "/"
 }: SuccessModalProps) {
-  if (!isOpen) return null;
+  const [mounted, setMounted] = useState(false);
 
-  return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
+  useEffect(() => {
+    setMounted(true);
+    return () => setMounted(false);
+  }, []);
+
+  if (!mounted || !isOpen) return null;
+
+  return createPortal(
+    <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4">
       <div 
         className="absolute inset-0 bg-gray-900/40 backdrop-blur-sm" 
         onClick={onClose}
@@ -29,7 +37,7 @@ export default function SuccessModal({
       <div className="relative w-full max-w-lg bg-white/90 dark:bg-gray-800/90 backdrop-blur-xl rounded-3xl shadow-2xl p-8 md:p-12 text-center border border-white/50 dark:border-gray-700 transform transition-all animate-fade-in-up">
         <div className="mx-auto mb-6 flex h-24 w-24 items-center justify-center rounded-full bg-emerald-500 shadow-lg shadow-emerald-500/30 ring-4 ring-emerald-500/20">
           <span
-            className="material-symbols-outlined text-5xl text-white"
+            className="material-symbols-outlined text-5xl text-green-600"
             style={{ fontVariationSettings: "'wght' 700" }}
           >
             check
@@ -49,6 +57,7 @@ export default function SuccessModal({
           {buttonText}
         </Link>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }

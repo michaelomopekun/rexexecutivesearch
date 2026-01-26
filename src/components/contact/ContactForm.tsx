@@ -1,6 +1,9 @@
+"use client";
+
 import Link from "next/link";
 import SocialIcons from "../Home/social_icons";
 import { useState } from "react";
+import SuccessModal from "../Common/SuccessModal";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -59,6 +62,12 @@ export default function ContactForm() {
 
   return (
     <section className="py-12 lg:py-20 bg-background-light dark:bg-surface-dark relative">
+      <SuccessModal 
+        isOpen={status === "success"} 
+        onClose={() => setStatus("idle")} 
+        // Using Default props for title, message, etc. as they match exactly what's needed here
+      />
+
       <div className="absolute inset-0 z-0 opacity-[0.03] dark:opacity-[0.05] pointer-events-none">
         <svg
           className="w-full h-full"
@@ -92,6 +101,8 @@ export default function ContactForm() {
           ></rect>
         </svg>
       </div>
+
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="bg-white dark:bg-gray-800 rounded-3xl shadow-2xl overflow-hidden border border-gray-100 dark:border-gray-700">
           <div className="grid grid-cols-1 lg:grid-cols-5">
@@ -230,9 +241,11 @@ export default function ContactForm() {
                   </div>
                 )}
                 {status === "success" && (
-                  <div className="p-4 bg-green-50 text-green-600 rounded-lg text-sm">
-                    Message sent successfully! We will get back to you soon.
-                  </div>
+                  <SuccessModal 
+                    isOpen={status === "success"} 
+                    onClose={() => setStatus("idle")} 
+                    // Using Default props for title, message, etc. as they match exactly what's needed here
+                  />
                 )}
 
                 <div className="pt-4">

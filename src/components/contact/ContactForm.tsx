@@ -1,7 +1,62 @@
 import Link from "next/link";
 import SocialIcons from "../Home/social_icons";
+import { useState } from "react";
 
 export default function ContactForm() {
+  const [formData, setFormData] = useState({
+    name: "",
+    company: "",
+    email: "",
+    phone: "",
+    inquiry: "",
+    message: "",
+  });
+  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setStatus("loading");
+    setErrorMessage("");
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || "Something went wrong");
+      }
+
+      setStatus("success");
+      setFormData({
+        name: "",
+        company: "",
+        email: "",
+        phone: "",
+        inquiry: "",
+        message: "",
+      });
+    } catch (error: any) {
+      console.error("Submission error:", error);
+      setStatus("error");
+      setErrorMessage(error.message || "Failed to send message. Please try again.");
+    }
+  };
+
   return (
     <section className="py-12 lg:py-20 bg-background-light dark:bg-surface-dark relative">
       <div className="absolute inset-0 z-0 opacity-[0.03] dark:opacity-[0.05] pointer-events-none">
@@ -44,7 +99,7 @@ export default function ContactForm() {
               <h2 className="text-3xl font-display font-bold text-accent-charcoal dark:text-white mb-8">
                 Send us a Message
               </h2>
-              <form action="#" className="space-y-6" method="POST">
+              <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label
@@ -59,6 +114,9 @@ export default function ContactForm() {
                       name="name"
                       placeholder="John Doe"
                       type="text"
+                      required
+                      value={formData.name}
+                      onChange={handleChange}
                     />
                   </div>
                   <div>
@@ -74,6 +132,8 @@ export default function ContactForm() {
                       name="company"
                       placeholder="Company Ltd."
                       type="text"
+                      value={formData.company}
+                      onChange={handleChange}
                     />
                   </div>
                 </div>
@@ -92,6 +152,8 @@ export default function ContactForm() {
                       placeholder="john@company.com"
                       type="email"
                       required
+                      value={formData.email}
+                      onChange={handleChange}
                     />
                   </div>
                   <div>
@@ -107,7 +169,8 @@ export default function ContactForm() {
                       name="phone"
                       placeholder="+234 ..."
                       type="tel"
-                      required
+                      value={formData.phone}
+                      onChange={handleChange}
                     />
                   </div>
                 </div>
@@ -123,7 +186,8 @@ export default function ContactForm() {
                       className="w-full px-4 py-3 rounded-lg bg-gray-50 dark:bg-gray-700 border border-gray-200 dark:border-gray-600 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all appearance-none dark:text-white cursor-pointer"
                       id="inquiry"
                       name="inquiry"
-                      defaultValue=""
+                      value={formData.inquiry}
+                      onChange={handleChange}
                       required
                     >
                       <option disabled value="">
@@ -155,17 +219,34 @@ export default function ContactForm() {
                     placeholder="How can we help you?"
                     rows={4}
                     required
+                    value={formData.message}
+                    onChange={handleChange}
                   ></textarea>
                 </div>
+
+                {status === "error" && (
+                  <div className="p-4 bg-red-50 text-red-600 rounded-lg text-sm">
+                    {errorMessage}
+                  </div>
+                )}
+                {status === "success" && (
+                  <div className="p-4 bg-green-50 text-green-600 rounded-lg text-sm">
+                    Message sent successfully! We will get back to you soon.
+                  </div>
+                )}
+
                 <div className="pt-4">
                   <button
-                    className="w-full md:w-auto px-8 py-4 bg-primary hover:bg-primary-dark text-white font-bold rounded-lg shadow-lg shadow-primary/30 transition-all transform hover:-translate-y-0.5 active:translate-y-0 flex items-center justify-center"
-                    type="button"
+                    className="w-full md:w-auto px-8 py-4 bg-primary hover:bg-primary-dark text-white font-bold rounded-lg shadow-lg shadow-primary/30 transition-all transform hover:-translate-y-0.5 active:translate-y-0 flex items-center justify-center disabled:opacity-70 disabled:cursor-not-allowed"
+                    type="submit"
+                    disabled={status === "loading"}
                   >
-                    Send Message
-                    <span className="material-symbols-outlined ml-2 text-sm">
-                      send
-                    </span>
+                    {status === "loading" ? "Sending..." : "Send Message"}
+                    {status !== "loading" && (
+                      <span className="material-symbols-outlined ml-2 text-sm">
+                        send
+                      </span>
+                    )}
                   </button>
                 </div>
               </form>

@@ -9,7 +9,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact Us",
-  description: "Get in touch with Rex Executive Search for your FMCG recruitment needs.",
+  description: "Get in touch with Rex Executive Search. Contact our team for FMCG recruitment services, executive search, and talent acquisition solutions in Nigeria.",
 };
 
 export default function ContactPage() {

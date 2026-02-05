@@ -12,7 +12,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Learn about Rex Executive Search, our mission, vision, and the team driving success in FMCG recruitment.",
+  description: "Learn about Rex Executive Search - Nigeria's leading FMCG recruitment agency. Our history, values, and commitment to connecting top talent with leading brands.",
 };
 
 export default function AboutPage() {
